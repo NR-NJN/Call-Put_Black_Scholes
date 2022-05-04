@@ -13,6 +13,7 @@ op_type=input('call or put [c/p]')
 #5 input variables used in the equation
 
 #6th variable is a choice for a put or a call option
+#kivy might be able to follow this option, or it might not idk have to check
 
 
 def black_gurls(r, S, K, T, sigma, op_type):
