@@ -1,0 +1,45 @@
+#:kivy 2.0.0
+<MyGridLayout>
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+        GridLayout:
+            cols:2
+
+            Label:
+                text:"rate of interest on the option"
+            TextInput:
+                id:r
+                multiline:False
+            Label:
+                text:"Spot price"
+            TextInput:
+                id:S  
+                multiline:False
+            Label:
+                text:"Strike price"
+            TextInput:
+                id:K
+                multiline:False
+            Label:
+                text:"expiration date"
+            TextInput:
+                id:T 
+                multiline:False
+            Label:
+                text:"volatility"
+            TextInput:
+                id:sigma
+                multiline:False
+            Label:
+                text:"call or put"
+            TextInput:
+                id:op_type
+                multiline:False
+            
+        Button:
+            text: "Calculate"
+            fint_size:32
+            on_press: root.black_gurls()
+            background_normal: ''
+            background_color: (1,0,0,0.5)
