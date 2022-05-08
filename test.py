@@ -63,7 +63,7 @@ class MyGridLayout(GridLayout):
          
         
         
-        self.add_widget(Label(text='Price of the option is ' +str(black_scholes(r,S,K,T,sigma,option))))
+        self.add_widget(Label(text='Price of the option is \n ' +str(black_scholes(r,S,K,T,sigma,option))))
         
         
 
