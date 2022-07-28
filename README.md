@@ -5,8 +5,8 @@ The plan is to turn this into a desktop app for starters
 The full desktop app is present in the test.py file
 
 MAKE SURE YOU HAVE KIVY, NUMPY, SCIPY INSTALLED
-'''
+```
 pip install kivy  
 pip install numpy
 pip install scipy
-'''
+```
